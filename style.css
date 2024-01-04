@@ -48,6 +48,15 @@ nav {
    
 }
 
+.about-qatar-text {
+    margin: 100px;
+}
+
+.about-qatar-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
 .about-qatar {
     height: 400px;
    
