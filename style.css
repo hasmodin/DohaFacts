@@ -111,6 +111,7 @@ table {
     height: 400px;
     width: 350px;
     border-radius: 2rem;
+    border: none;
 }
 .top-article-thumb img {
     background-image: url("images/drive.png");
@@ -155,7 +156,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     bottom: 0px;
-    position: relative;
+    position: fixed;
 }
 
 .footer-links >a {
@@ -178,11 +179,3 @@ footer {
     
 }
 
-@media screen (max-width:600px) {
-
-    nav {
-        height: 110px;
-        flex-direction : column;
-    }
-    
-}
