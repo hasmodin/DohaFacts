@@ -96,6 +96,9 @@ table {
 
 /* top article style */
 
+
+
+
 .articles-container {
     margin: 100px;
     display: flex;
@@ -130,12 +133,13 @@ table {
 
 }
 
-.tranding-video {
+.title-bar {
     border-top: 2px solid #01A7C2;
     border-bottom: 2px solid #01A7C2;
     text-align: center;
     margin: 100px;
     padding: 10px;
+   
 
 }
 
@@ -179,3 +183,35 @@ footer {
     
 }
 
+
+
+
+/* media query */
+
+@media(max-width:768px) {
+    .about-qatar {
+        display: block;
+    }
+}
+
+
+
+@media(max-width:1050px) {
+
+    .nav-right {
+      
+        background-color: #006989;
+        margin-top: 75px;
+        margin-right: 0px;
+    }
+    .nav-right a {
+        display: block;
+        color: whitesmoke;
+        font-size: .8rem;
+        
+       
+        
+    }
+
+    
+}
