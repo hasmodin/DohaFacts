@@ -9,18 +9,65 @@
 </head>
 <body>
     <nav>
-        <div class="logo">
-            <a href="index.html">DohaGuide.com</a>
-        </div>
-        <div class="nav-right">
+
+        <div class="sidebar">
+            <a href="" onclick="hideSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
             <a href="driving.html">Driving In Qatar</a>
             <a href="living.html">Living In Qatar</a>
             <a href="visiting.html">Visiting In Qatar</a>
             <a href="metrash2.html">Metrash2</a>
         </div>
+        
+        <div class="logo">
+            <a href="index.html">DohaGuide.com</a>
+        </div>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+
+        <div class="nav-right">
+            <a href="driving.html" class="hideOnMobile">Driving In Qatar</a>
+            <a href="living.html" class="hideOnMobile">Living In Qatar</a>
+            <a href="visiting.html" class="hideOnMobile">Visiting In Qatar</a>
+            <a href="metrash2.html" class="hideOnMobile">Metrash2</a>
+            <a href="#" class="menu-button" onclick="showSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </div>
+        
     </nav>
     <div class="title-bar">
         <h2>Popular Articles</h2>
+    </div>
+
+    <div class="articles-container">
+
+        <div class="article-thumbnail">
+            <a href="idcheck.html"><img src="visit-qatar-img/idcard-status.png" alt="Howt to get driving license"></a> 
+  
+            <div class="top-article-title">
+              <a href="idcheck.html"><h2>How To Check Qatar ID Status Online?</h2></a>  
+            </div>
+         </div>
+
+        <div class="article-thumbnail">
+          <a href="metrash2.html"><img src="living-qatar/metrash2.png" alt="Howt to get driving license"></a> 
+
+          <div class="top-article-title">
+            <a href="metrash2.html"><h2>Guide About Metrash2 Mobile Application 2024.</h2></a>  
+          </div>
+
+        </div>
+        
+
+        <div class="article-thumbnail">
+            <a href="visaonarrival.html"><img src="living-qatar/visaonarrival.png" alt="Howt to get driving license"></a> 
+  
+            <div class="top-article-title">
+              <a href="visaonarrival.html"><h2>Qatar Visa On Arrival For GCC Resident 2024.</h2></a>  
+            </div>
+            
+          </div>
+
+       
+
+          
     </div>
 
 
@@ -56,31 +103,7 @@
           
     </div>
 
-    <div class="articles-container">
-        <div class="article-thumbnail">
-          <a href="metrash2.html"><img src="living-qatar/metrash2.png" alt="Howt to get driving license"></a> 
-
-          <div class="top-article-title">
-            <a href="metrash2.html"><h2>Guide About Metrash2 Mobile Application 2024.</h2></a>  
-          </div>
-
-        </div>
-        
-
-        <div class="article-thumbnail">
-            <a href="visaonarrival.html"><img src="living-qatar/visaonarrival.png" alt="Howt to get driving license"></a> 
-  
-            <div class="top-article-title">
-              <a href="visaonarrival.html"><h2>Qatar Visa On Arrival For GCC Resident 2024.</h2></a>  
-            </div>
-            
-          </div>
-
-          
-
-          
-    </div>
-
+    
     <div class="title-bar">
         <h2>Do You Know ? About Qatar</h2>
     </div>
@@ -148,6 +171,7 @@
             <p>All Right Reserved @DohaGuide.com 2024</p>
         </div>
     </footer>
-    
+
+    <script src="app.js"></script>
 </body>
 </html>

@@ -9,7 +9,11 @@
 }
 
 .article-content {
-    margin: 300px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: calc(2);
+
 }
 
 .article-content h2 {
@@ -27,6 +31,10 @@
    
 }
 
+.video1 {
+    padding: 20px;
+}
+
 .table-content {
     height: 20px;
     width: 700px;
@@ -36,7 +44,4 @@
 
  li {
     line-height: 2;
-}
-li:hover {
-    border-bottom: 1px solid black;
 }

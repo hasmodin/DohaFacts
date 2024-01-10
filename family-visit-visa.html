@@ -9,19 +9,54 @@
 </head>
 <body>
     <nav>
-        <div class="logo">
-            <a href="index.html">DohaGuide.com</a>
-        </div>
-        <div class="nav-right">
+
+        <div class="sidebar">
+            <a href="" onclick="hideSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
             <a href="driving.html">Driving In Qatar</a>
             <a href="living.html">Living In Qatar</a>
             <a href="visiting.html">Visiting In Qatar</a>
             <a href="metrash2.html">Metrash2</a>
         </div>
+        
+        <div class="logo">
+            <a href="index.html">DohaGuide.com</a>
+        </div>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+
+        <div class="nav-right">
+            <a href="driving.html" class="hideOnMobile">Driving In Qatar</a>
+            <a href="living.html" class="hideOnMobile">Living In Qatar</a>
+            <a href="visiting.html" class="hideOnMobile">Visiting In Qatar</a>
+            <a href="metrash2.html" class="hideOnMobile">Metrash2</a>
+            <a href="#" class="menu-button" onclick="showSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </div>
+        
     </nav>
 
+    <div  class="article-content">
+        <h2>Conditions For Bringing Families On Visit Visa In Qatar.</h2>
+        <span>By</span> <a href="">Hassam Ansari</a>
+        <span>Updated : 10/01/2024 </span>
 
-<h1>Article Comming Soon...</h1>
+        <div class="video1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GyMv-ygNHNQ?si=0H9Pj94_FWWkAXZz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <h2>General Conditons :</h2>
+        <ul>
+            <li>1. The applying resident should have family accommodation duly accredited by relevant authorities.</li>
+            <li>2. The applying resident should possess a minimum monthly salary of <b>QAR 5000</b></li>
+            <li>3. The profession of the applying residen should be in the <b>non-labour category</b>.</li>
+            <li>4. The visitor must possess health insurance for the period of their visit of the <b>State of Qatar</b></li>
+            <li>5. The visitor must be a relative of the applying resident within the allowed degrees of relation.</li>
+        </ul>
+        <h2>Application must be submitted through the <u>Metrash2</u> mobile app</h2>
+
+    </div>
+
+
+
+
 
 
     <footer>
@@ -34,5 +69,7 @@
             <p>All Right Reserved @DohaGuide.com 2024</p>
         </div>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
