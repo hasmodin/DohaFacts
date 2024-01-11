@@ -86,7 +86,7 @@ table {
     
   }
   
-  tr, td {
+  th, tr, td  {
     text-align: left;
     padding: 10px;
     

@@ -31,6 +31,40 @@
    
 }
 
+.driving-school-img {
+    height: 300px;
+    width: 400px;
+    background-image: url("Driving-school-images/doha-driving-academic.JPG");
+    background-size: cover;
+}
+
+.karwa-driving-school-img {
+    height: 300px;
+    width: 400px;
+    background-image: url("Driving-school-images/karwa-driving.jpg");
+    background-size: cover;
+}
+
+.alkhebra-academy {
+    height: 300px;
+    width: 400px;
+    background-image: url("Driving-school-images/alkhebra-academy.jpg");
+    background-size: cover;
+}
+.alijarah-driving-img {
+    height: 300px;
+    width: 400px;
+    background-image: url("Driving-school-images/alijarah-academy.jpg");
+    background-size: cover;
+}
+
+.dallah-academy {
+    height: 300px;
+    width: 400px;
+    background-image: url("Driving-school-images/dallah-academy.jpg");
+    background-size: cover;
+    
+}
 .video1 {
     padding: 20px;
 }
