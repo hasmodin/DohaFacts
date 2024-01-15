@@ -47,7 +47,8 @@ nav {
     background-color: #01A7C2;
     color: whitesmoke;
     border-bottom: 1px solid black;
-    border-radius: .8rem;
+   
+    
    
 }
 
@@ -60,10 +61,12 @@ nav {
     line-height: 1.5;
 }
 
+.abt-qatar {
+    margin-top: 16px;
+}
+
 .about-qatar {
     width: 100%;
-   
-    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -73,7 +76,7 @@ nav {
 }
 
 .qatar-image {
-    background-image: url("images/qatar1.webp");
+    background-image: url("images/qatar.jpeg");
     background-size: cover;
     height: 400px;
     width: 400px;
@@ -103,10 +106,10 @@ table {
 
 .articles-container {
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     
     
@@ -119,6 +122,9 @@ table {
     width: 400px;
     border-radius: 2rem;
     border: none;
+    margin: auto;
+  
+    
 }
 .article-thumbnail img {
     background-image: url("images/drive.png");
@@ -159,7 +165,7 @@ table {
 footer {
     height: 70px;
     width: 100%;
-    background-color:   rgba(138, 184, 200, 0.8);
+    background-color:#006989;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -179,8 +185,9 @@ footer {
     background-color: #01A7C2;
     color: black;
     border-bottom: 1px solid black;
-    border-radius: 1.5rem;
+ 
 }
+
 
 .web-rights {
     color: whitesmoke;
@@ -267,5 +274,14 @@ footer {
 @media (max-width:400px) {
     .sidebar {
         width: 100%;
+    }
+}
+
+@media(max-width:750px) {
+    .footer-links a {
+        font-size: .8rem;
+    }
+    .web-rights {
+        font-size: .8rem;
     }
 }

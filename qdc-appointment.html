@@ -8,20 +8,79 @@
     <title>Document</title>
 </head>
 <body>
+ 
+
     <nav>
-        <div class="logo">
-            <a href="index.html">DohaGuide.com</a>
-        </div>
-        <div class="nav-right">
+
+        <div class="sidebar">
+            <a href="" onclick="hideSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
             <a href="driving.html">Driving In Qatar</a>
             <a href="living.html">Living In Qatar</a>
             <a href="visiting.html">Visiting In Qatar</a>
             <a href="metrash2.html">Metrash2</a>
         </div>
+        
+        <div class="logo">
+            <a href="index.html">DohaGuide.com</a>
+        </div>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+
+        <div class="nav-right">
+            <a href="driving.html" class="hideOnMobile">Driving In Qatar</a>
+            <a href="living.html" class="hideOnMobile">Living In Qatar</a>
+            <a href="visiting.html" class="hideOnMobile">Visiting In Qatar</a>
+            <a href="metrash2.html" class="hideOnMobile">Metrash2</a>
+            <a href="#" class="menu-button" onclick="showSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </div>
+        
     </nav>
 
+    <div class="article-content">
+        <h2>How To Book QDC Appointment Online ?</h2>
+        <span>By</span> <a href="">Hassam Ansari</a><span>Updated : 14/01/2024 </span>
+        <p>Here's a guide on how to book QDC appointment online in Qatar.</p>
+       
+            <ol>
+                <li><b>Navigate to the QDC website :</b></li>
+                <p>Visit the official QDC website . <a href="https://www.qdc.com.qa/">https://www.qdc.com.qa/</a></p>
+                <li><b>Choose your appointment type :</b></li>
+                <p>Click on the <b>Appointments</b> tab at the top of the page. you'll see different appointment options:</p>
+                <ul>
+                    <li>
+                        <ul>
+                            <li><b>Store visit :</b> For shopping at a QDC retail store.</li>
+                            <li><b>Permit renewal/Lost Card :</b> For renewing your existing permit or replacing a lost one.</li>
+                            <li><b>New permit/Joint Permit/Review Office :</b> For applying for a new permit, applying for a joint with your spouse, or visiting the review office.</li>
+                           
+                        </ul>
+                    </li>
+                </ul>
+                <li><b>Provide Your Details :</b></li>
+                <p>Enter Your :</p>
+                <ul>
+                    <li>
+                        <ul>
+                            <li>Permit Number(if applicable)</li>
+                            <li>Qatar ID number</li>
+                            <li>Email Address</li>
+                            <li>Mobile Number </li>
+                            <li>Captcha code displayed on the screen</li>
+                        </ul>
+                    </li>
+                </ul>
+                <li><b>Select your preferred date and time :</b></li>
+                <p>The website will display available appointment slot based on your chosen type. Select the most convenient date and time for you.</p>
+                <li><b>Confirm and receive confirmation :</b></li>
+                <p>Review the appointment details and click <b>Cofirm</b> to complete the booking. You'll receive a confirmation email and or sms with your appointment details.</p>
+            </ol>
+            <h2>Additional Tips :</h2>
+            <p>1. Book your appointment well in advance, as slots can fill up quickly.</p>
+            <p>2. Ensure you have all the required documents needed for your chosen appointment type.</p>
+            <p>3. You can reschedule or cancel your appointment online.</p>
+            <p>4. If you have any issues booking online, you can contact QDC directly through their webiste or by calling their customer service number.</p>
 
-
+            <p>I hope this helps you ! please let me know if you have any questions <b>Thank you ! Visit Again !</b></p>
+    </div>    
 
 
     <footer>
@@ -35,5 +94,6 @@
             <p>All Right Reserved @DohaGuide.com 2024</p>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>

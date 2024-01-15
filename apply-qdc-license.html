@@ -8,20 +8,101 @@
     <title>Document</title>
 </head>
 <body>
+
     <nav>
-        <div class="logo">
-            <a href="index.html">DohaGuide.com</a>
-        </div>
-        <div class="nav-right">
+
+        <div class="sidebar">
+            <a href="" onclick="hideSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
             <a href="driving.html">Driving In Qatar</a>
             <a href="living.html">Living In Qatar</a>
             <a href="visiting.html">Visiting In Qatar</a>
             <a href="metrash2.html">Metrash2</a>
         </div>
+        
+        <div class="logo">
+            <a href="index.html">DohaGuide.com</a>
+        </div>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+
+        <div class="nav-right">
+            <a href="driving.html" class="hideOnMobile">Driving In Qatar</a>
+            <a href="living.html" class="hideOnMobile">Living In Qatar</a>
+            <a href="visiting.html" class="hideOnMobile">Visiting In Qatar</a>
+            <a href="metrash2.html" class="hideOnMobile">Metrash2</a>
+            <a href="#" class="menu-button" onclick="showSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </div>
+        
     </nav>
 
 
-    <h1 style="text-align: center;">Article Comming Soon</h1>
+    <div class="article-content">
+        <h2>How To Apply for QDC License In Qatar ?</h2>
+        <span>By</span> <a href="">Hassam Ansari</a><span>Updated : 14/01/2024 </span>
+        <p>Here's a guide on how to apply for a QDC license <b>Liquor Pertmit</b> in Qatar.</p>
+        <div class="video1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mFx4jVorKgo?si=ZVoobUabl6Nlztd_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h2>Eligiblity :</h2>
+        <ul>
+            <li>Non GCC citizens with a valid Qatar Resident Permit(RP).</li>
+            <li>Over 21 Years Old.</li>
+            <li>Basic Salary <b>(Excluding allowences)</b> of at least QAR 3,000 per month.</li>
+            <li>Private accommodation(not applicable to those living in hotels.</li>
+        </ul>
+        <h2>Application Process :</h2>
+        <ol>
+            <li><b>Book an online appointment :</b></li>
+            <ul>
+                <li>Visit the QDC website : <a href="http://">https://www.qdc.com.qa/</a></li>
+                <li>Click on "New Permit" and schedule an appointment.</li>
+            </ul>
+            <li><b>Gather a required documents :</b></li>
+            <ul>
+                <li>Original Qatar ID passport with RP.</li>
+                <li>Letter from your employer in english addressed to QDC , stating :</li>
+                <p>Name</p><br>
+                <p>position</p><br>
+                <p>Basic Salary Breakdown</p><br>
+                <p>accommodation entitlement(Free housing or allowence)</p><br>
+                <p>Signed and stamped by an authorized signatroy</p><br>
+                <p>Dated with at least 3 months</p><br>
+                <p>On Original company letterhead</p>
+                
+            </ul>
+            <li><b>Visit the QDC office :</b></li>
+            <ul>
+                <li>
+                    <ul>
+                        <li>Attend you appointment at the QDC office in Abu Hamour(location may change, check the website).</li>
+                        <li>Bring the required document and pay the application fee (QAR 150 for 12 months, QAR 175 for 15 months and QAR 192 for 17 months).</li>
+                        <li>Your photo will be taken and you'll be issued a temproray permit.</li>
+                    </ul>
+                </li>
+            </ul>
+            <li><b>Collect your license :</b></li>
+            <ul><li>
+                <ul>
+                    <li>The official license will be ready for collection within a few days. you'll be notified via SMS.</li>
+                </ul>
+            </li></ul>
+        </ol>
+        <h2>Additional Tips :</h2>
+        <ul>
+            <li>
+                <ul>
+                    <li><b>Renewal : </b> License can be renew online or in person.</li>
+                    <li><b>Click & collect : </b> Pre-order products online and collect them at a specific time.</li>
+                    <li><b>Spouse application :</b> Both spouse can apply for a joint permit.</li>
+                    <li><b>Pork prodcut : Sold to non Musalim only.</b></li>
+                    <li><b>Alcohol consumption :</b> Only allowed at the permit holder's resident.</li>
+                    <li><b>Permit holder and goods :</b> Must be in the same vehicle during transportation.</li>
+                </ul>
+            </li>
+        </ul>
+        <p>For more inforation please do visit QDC official website.</p>
+        <p>Hope this helpes you! Let me know if you have any question. <b>Thank you, Visit Again !</b></p>
+    </div>    
+ 
 
 
     <footer>
@@ -34,5 +115,6 @@
             <p>All Right Reserved @DohaGuide.com 2024</p>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
