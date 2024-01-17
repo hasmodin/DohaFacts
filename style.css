@@ -161,6 +161,49 @@ table {
     padding: 20px;
    
 }
+/* collapsible style */
+.collapsible-container {
+    margin: 100px;
+}
+.collapsible {
+    background-color: #006989;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    
+    
+}
+
+.active, .collapsible:hover {
+    background-color: #01A7C2;
+}
+.collapsible::after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 20px;
+}
+.active::after {
+    content: "\2212";
+}
+
+.collapisble-content {
+
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+
+
 
 footer {
     height: 70px;
