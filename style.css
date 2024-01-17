@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    /* list-style-type: none; */
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -17,6 +17,7 @@ nav {
     align-items: center;
     position: fixed;
     top: 0;
+    z-index: 999;
 
 }
 
@@ -51,6 +52,8 @@ nav {
     
    
 }
+
+ /* style for do you know about qatar */
 
 .about-qatar-text {
     margin: 100px;
@@ -127,7 +130,7 @@ table {
     
 }
 .article-thumbnail img {
-    background-image: url("images/drive.png");
+    background-image: url("images/driving-license.png");
     background-size: cover;
     height: 300px;
     width: 400px;
@@ -161,49 +164,91 @@ table {
     padding: 20px;
    
 }
+
+
 /* collapsible style */
-.collapsible-container {
+
+.collapsible-contiainer {
     margin: 100px;
 }
-.collapsible {
-    background-color: #006989;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
+.collapsible-box {
     width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 1.5rem;
-    margin-right: 20px;
+    
+    
+    
     
     
 }
+.collapsible-box-title >p{
+    background-color: #006989;
+    padding: 15px;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 3px 0px 3px 3px #01A7C2;
+    
+    
+}
+.collapsible-box-title p::before{
+    content: "+";
+    font-weight: 800;
+    
+    color: white;
+    position: absolute;
+    right: 2rem;
+    margin-bottom: 10px;
+}
+.collapsible-box.active .collapsible-box-title p::before {
+    content: "-";
+    font-weight: 800;
+    padding-bottom: 15px;
+    color: white;
+    position: absolute;
+    right: 2rem;
+    
+}
 
-.active, .collapsible:hover {
+.collapsible-box-title p:hover{
     background-color: #01A7C2;
 }
-.collapsible::after {
-    content: '\002B';
-    color: white;
-    font-weight: bold;
-    float: right;
-    margin-left: 20px;
-}
-.active::after {
-    content: "\2212";
-}
 
-.collapisble-content {
 
-    padding: 0 18px;
-    max-height: 0;
+
+.collapsible-box-text {
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 5px;
+    height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    transition: all .6s;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+   
+  
+}
+
+.collapsible-box.active .collapsible-box-text {
+    height: auto;
+    padding: 15px;
 }
 
 
+.famous-place-img img{
+   
+   background-size: cover; 
+    height: 300px;
+    width: 400px;
+    border-radius: 2rem;
+
+}
+
+
+
+
+ /* footer style */
 
 footer {
     height: 70px;
@@ -238,6 +283,7 @@ footer {
     
 }
 
+/* nav sidebar style */
 
 .sidebar {
     position: fixed;
@@ -270,33 +316,7 @@ footer {
 
 /* media query */
 
-/* @media(max-width:768px) {
-    .about-qatar {
-        display: block;
-    }
-}
 
-
-
-@media(max-width:1050px) {
-
-    .nav-right {
-      
-        background-color: #006989;
-        margin-top: 75px;
-        margin-right: 0px;
-    }
-    .nav-right a {
-        display: block;
-        color: whitesmoke;
-        font-size: .8rem;
-        
-       
-        
-    }
-
-    
-} */
 
 .menu-button {
     display: none;
