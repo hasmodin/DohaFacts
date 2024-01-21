@@ -10,7 +10,7 @@
 
 nav {
     height: 70px;
-    background-color: #006989;
+    background-color: #8F1336;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ nav {
 }
 
 .nav-right a:hover {
-    background-color: #01A7C2;
+    background-color: rgba(0,0,0,0.2);
     color: whitesmoke;
     border-bottom: 1px solid black;
     border-radius: .4rem;
@@ -121,10 +121,11 @@ table {
 }
 
 .article-thumbnail {
-    background-color: #01A7C2;
+    background-color: #8F1336;
     height: 400px;
     width: 400px;
     border-radius: 2rem;
+    box-shadow: 1px 0px .5px .5px black;
     border: none;
     margin: auto;
   
@@ -143,13 +144,13 @@ table {
 }
 
 .top-article-title h2 {
-    color: black;
+    color: white;
 
 }
 
 .title-bar {
-    border-top: 2px solid #01A7C2;
-    border-bottom: 2px solid #01A7C2;
+    border-top: 2px solid #8F1336;
+    border-bottom: 2px solid #8F1336;
     text-align: center;
     margin: 100px;
     padding: 10px;
@@ -157,14 +158,7 @@ table {
 
 }
 
-.youtube-video-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
-   
-}
+
 
 
 /* collapsible style */
@@ -174,6 +168,7 @@ table {
 }
 .collapsible-box {
     width: 100%;
+    padding: .3rem;
     
     
     
@@ -181,14 +176,14 @@ table {
     
 }
 .collapsible-box-title >p{
-    background-color: #006989;
+    background-color: #8F1336;
     padding: 15px;
     color: white;
-    border-radius: 3px;
+    border-radius: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
     position: relative;
-    box-shadow: 3px 0px 3px 3px #01A7C2;
+    box-shadow: 1px 0px .5px .5px black;
     
     
 }
@@ -211,8 +206,13 @@ table {
     
 }
 
-.collapsible-box-title p:hover{
-    background-color: #01A7C2;
+/* .collapsible-box-title p:hover{
+    background-color:  rgba(66, 18, 18, 0.2);
+} */
+
+.collapsible-box-title p:hover {
+    background-color: rgba(0,0,0,0.2); 
+    color: black;
 }
 
 
@@ -225,6 +225,7 @@ table {
     overflow: hidden;
     transition: all .6s;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap; 
    
@@ -254,7 +255,7 @@ table {
 footer {
     height: 70px;
     width: 100%;
-    background-color:#006989;
+    background-color:#8F1336;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -271,8 +272,8 @@ footer {
 }
 
 .footer-links >a:hover {
-    background-color: #01A7C2;
-    color: black;
+    background-color: rgba(0,0,0,0.2);
+    /* color: black; */
     border-bottom: 1px solid black;
     border-radius: .4rem;
  
@@ -283,6 +284,9 @@ footer {
     color: whitesmoke;
     margin-right: 20px;
     
+}
+svg {
+    fill: #fff
 }
 
 /* nav sidebar style */
@@ -297,7 +301,7 @@ footer {
     box-shadow: -10px 0 10px rgba(0,0,0,0.2);
     display: none;
     flex-direction: column;
-    background-color:   rgba(138, 184, 200, 0.8);
+    background-color:   rgba(58, 5, 5, 0.8);
    
 
     
@@ -311,7 +315,7 @@ footer {
 }
 
 .sidebar a:hover {
-    background-color: #01A7C2;
+    background-color: rgba(0,0,0,0.2);
     color: whitesmoke;
     border-bottom: 1px solid black;
 }
@@ -349,4 +353,27 @@ footer {
     .web-rights {
         font-size: .8rem;
     }
+}
+
+
+/* go to top button style */
+
+.myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5rem;
+    right: 1.5rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #8F1336;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+}
+
+.myBtn:hover {
+    background-color: rgba(0,0,0,0.2);;
 }
