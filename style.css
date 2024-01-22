@@ -195,6 +195,7 @@ table {
     position: absolute;
     right: 2rem;
     margin-bottom: 10px;
+   
 }
 .collapsible-box.active .collapsible-box-title p::before {
     content: "-";
@@ -203,6 +204,7 @@ table {
     color: white;
     position: absolute;
     right: 2rem;
+    
     
 }
 
