@@ -79,8 +79,8 @@ nav {
     
 }
 
-.qatar-image {
-    background-image: url("images/qatar.jpeg");
+.qatar-image img {
+    /* background-image: url("images/qatar.jpeg"); */
     background-size: cover;
     height: 400px;
     width: 400px;
