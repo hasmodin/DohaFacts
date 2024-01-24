@@ -49,6 +49,7 @@ function scrollFunction() {
 //when the user click on the button, scroll to  the top of the document.
 
 function topFunction() {
+    
     document.body.scrollTop = 0; //for safari
     document.documentElement.scrollTop = 0; // chrome and firefox
 }
