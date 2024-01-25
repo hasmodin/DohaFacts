@@ -357,6 +357,21 @@ svg {
     }
 }
 
+@media(max-width:690px){
+    footer {
+        display: block;
+        height: 70px;
+    
+        background-color: rgba(58, 5, 5, 0.8);;
+        
+    }
+   }
+    .web-rights> p{
+        margin-left: 50px;
+        
+      
+    }
+
 
 /* go to top button style */
 
