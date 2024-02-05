@@ -53,3 +53,13 @@ function topFunction() {
     document.body.scrollTop = 0; //for safari
     document.documentElement.scrollTop = 0; // chrome and firefox
 }
+
+
+// reset form code
+
+// const formToReset = document.querySelector(".contact-form");
+// formToReset.addEventListener('submit' , (e) => {
+//     e.preventDefault();
+//     formToReset.reset();
+
+// });
