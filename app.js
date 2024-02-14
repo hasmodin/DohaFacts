@@ -63,3 +63,22 @@ function topFunction() {
 //     formToReset.reset();
 
 // });
+
+
+   
+
+
+    // let nameError = document.querySelector(".name-error");
+    // let emailError = document.querySelector(".email-error");
+    // let messageError = document.querySelector(".message-error");
+    // let submitError = document.querySelector(".subit-error");
+    
+    // function validateName() {
+    //     let name = document.querySelector(".contact-name").value;
+        
+    //     if(name.length == 0) {
+    //         nameError.innerHTML ="name is required";
+    //         return false;
+    //     }
+        
+    // }
