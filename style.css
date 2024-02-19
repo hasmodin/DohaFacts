@@ -90,6 +90,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 100px;
     
     
 }
@@ -272,20 +273,27 @@ table {
 footer {
     height: 70px;
     width: 100%;
-    background-color:#8F1336;
+    /* background-color:#8F1336; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     bottom: 0px;
     position: fixed;
+    z-index: 999;
+}
+
+footer:hover {
+    background-color:#8F1336;
+    
 }
 
 .footer-links >a {
-    color: whitesmoke;
+    color: black;
     font-size: 1.2rem;
     margin: 10px;
     padding: 10px;
     border-left: 1px solid #f0e3e3;
+    
     
 }
 
@@ -299,7 +307,7 @@ footer {
 
 
 .web-rights {
-    color: whitesmoke;
+    color: black;
     margin-right: 40px;
     
 }
